@@ -1,0 +1,66 @@
+html,
+body {
+   margin: 0;
+   height: 100%;
+}
+
+#c {
+   width: 100%;
+   height: 100%;
+   display: block;
+   position: fixed;
+   left: 0;
+   top: 0;
+   z-index: 0;
+   pointer-events: auto; 
+}
+
+.overlay {
+   position: absolute;
+   top: 10px;
+   left: 10px;
+   z-index: 1;
+   /* color: white; */
+}
+
+.text {
+   color: rgb(255, 255, 255);
+   margin: 0;
+}
+
+.planet-container {
+   display: flex;
+   flex-direction: column;
+   max-width: 15%;
+   gap: 5px; 
+   align-items: flex-start; 
+   padding: 20px; 
+}
+
+.planet {
+   display: flex;
+   align-items: center; 
+   justify-content: left;
+   gap: 10px; 
+   padding: 10px; 
+}
+
+button {
+   padding: 5px 10px; 
+   border: none; 
+   background-color: #007BFF; 
+   color: white; 
+   cursor: pointer; 
+   border-radius: 5px; 
+}
+
+button:hover {
+   background-color: #0056b3; 
+}
+
+.all-button, .orbit-button {
+   align-self: center;
+   margin-top: 20px; 
+   padding: 10px 20px;
+   font-size: 16px; 
+}

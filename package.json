@@ -1,0 +1,12 @@
+{
+  "dependencies": {
+    "http-server": "^14.1.1",
+    "three": "^0.169.0"
+  },
+  "scripts": {
+    "start": "parcel public/index.html"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
